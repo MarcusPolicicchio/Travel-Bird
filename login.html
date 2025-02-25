@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Travel Bird</title>
+    <link rel="stylesheet" href="travelcss/Styles.css">
+    <script defer src="traveljs/auth.js"></script>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo"><a href="index.html">Travel Bird</a></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="routes.html">Routes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="form-container fade-in">
+        <h2>Login</h2>
+        <input type="text" id="loginUsername" placeholder="Username">
+        <input type="password" id="loginPassword" placeholder="Password">
+        <button onclick="login()">Login</button>
+
+        <h2>Register</h2>
+        <input type="text" id="registerUsername" placeholder="New Username">
+        <input type="password" id="registerPassword" placeholder="New Password">
+        <button onclick="register()">Register</button>
+
+        <p id="message"></p>
+    </div>
+
+</body>
+
+
+</body>
+</html>
